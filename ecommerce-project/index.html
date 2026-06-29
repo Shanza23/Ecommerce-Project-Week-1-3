@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clicon – Electronics & Gadgets Store</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="header">
+  <div class="container">
+    <div class="header-inner">
+      <!-- Logo -->
+      <a href="index.html" class="logo">
+        <img src="assets/brand/logo-colored.svg" alt="Brand logo" class="logo-img" />
+      </a>
+
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <select class="search-category">
+          <option>All category</option>
+          <option>Electronics</option>
+          <option>Clothing</option>
+          <option>Home interiors</option>
+          <option>Sports &amp; outdoor</option>
+        </select>
+        <input class="search-input" type="text" placeholder="Search for products, brands and more..." />
+        <button class="search-btn">Search</button>
+      </div>
+
+      <!-- Actions -->
+      <div class="header-actions">
+        <a href="#" class="action-item">
+          <div class="action-icon">👤</div>
+          <span>Profile</span>
+        </a>
+        <a href="#" class="action-item">
+          <div class="action-icon">💬</div>
+          <span>Message</span>
+        </a>
+        <a href="#" class="action-item">
+          <div class="action-icon">📦</div>
+          <span>Orders</span>
+        </a>
+        <a href="#" class="action-item">
+          <div class="action-icon">
+            🛒
+            <span class="action-badge cart-badge">0</span>
+          </div>
+          <span>My cart</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ========== NAVIGATION ========== -->
+<nav class="nav-bar">
+  <div class="container">
+    <div class="nav-inner">
+      <button class="all-categories-btn">☰ &nbsp;All category</button>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#">Hot offers</a></li>
+        <li><a href="#">Gift boxes</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="pages/products.html">Menu item</a></li>
+        <li><a href="#">Help ▾</a></li>
+      </ul>
+      <div class="nav-hotline">
+        <span>English, USD ▾</span>
+        <span style="margin-left:16px;">🇩🇪 Ship to ▾</span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <!-- Category Sidebar -->
+      <aside class="hero-sidebar">
+        <ul class="hero-cat-list">
+          <li class="active">Automobiles</li>
+          <li>Clothes and wear</li>
+          <li>Home interiors</li>
+          <li>Computer and tech</li>
+          <li>Tools, equipments</li>
+          <li>Sports and outdoor</li>
+          <li>Animal and pets</li>
+          <li>Machinery tools</li>
+          <li>More category</li>
+        </ul>
+      </aside>
+
+      <!-- Hero Banner -->
+      <div class="hero-content">
+        <div class="hero-tag">New Arrivals 2026</div>
+        <h1>Latest trending<br /><span>Electronic items</span></h1>
+        <a href="pages/products.html" class="btn btn-dark hero-learn-btn">Learn more</a>
+        <div class="hero-image">
+          <img src="assets/images/tech/4.jpg" alt="Latest smartphone" />
+        </div>
+      </div>
+
+      <!-- Side promo cards -->
+      <div class="hero-side-cards">
+        <div class="side-card dark">
+          <p>Hi, user<br />let's get started</p>
+          <div class="side-card-links">
+            <a href="#">Join now</a>
+            <a href="#">Log in</a>
+          </div>
+        </div>
+        <div class="side-card orange">
+          <p>Get US $10 off<br />with a new supplier</p>
+        </div>
+        <div class="side-card teal">
+          <p>Send quotes with<br />supplier preferences</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ========== DEALS AND OFFERS ========== -->
+<section class="deals-section">
+  <div class="container">
+
+    <!-- Row 1: Deals and offers (countdown) -->
+    <div class="deals-row">
+      <div class="deals-feature countdown-feature">
+        <h3>Deals and offers</h3>
+        <p class="deals-sub">Hygiene equipments</p>
+        <div class="countdown">
+          <div class="countdown-box"><span id="timer-d">04</span><label>Days</label></div>
+          <div class="countdown-box"><span id="timer-h">13</span><label>Hour</label></div>
+          <div class="countdown-box"><span id="timer-m">34</span><label>Min</label></div>
+          <div class="countdown-box"><span id="timer-s">56</span><label>Sec</label></div>
+        </div>
+      </div>
+      <a href="pages/product-detail.html" class="deal-mini-card">
+        <div class="deal-mini-img placeholder"><img src="assets/images/tech/8.jpg" alt="Smart watches" /></div>
+        <p>Smart watches</p>
+        <span class="deal-mini-tag">-25%</span>
+      </a>
+      <a href="pages/product-detail.html" class="deal-mini-card">
+        <div class="deal-mini-img placeholder"><img src="assets/images/tech/7.jpg" alt="Laptops" /></div>
+        <p>Laptops</p>
+        <span class="deal-mini-tag">-15%</span>
+      </a>
+      <a href="pages/product-detail.html" class="deal-mini-card">
+        <div class="deal-mini-img placeholder"><img src="assets/images/tech/6.jpg" alt="GoPro cameras" /></div>
+        <p>GoPro cameras</p>
+        <span class="deal-mini-tag">-40%</span>
+      </a>
+      <a href="pages/product-detail.html" class="deal-mini-card">
+        <div class="deal-mini-img placeholder"><img src="assets/images/tech/5.jpg" alt="Headphones" /></div>
+        <p>Headphones</p>
+        <span class="deal-mini-tag">-25%</span>
+      </a>
+      <a href="pages/product-detail.html" class="deal-mini-card">
+        <div class="deal-mini-img placeholder"><img src="assets/images/tech/1.jpg" alt="Canon cameras" /></div>
+        <p>Canon cameras</p>
+        <span class="deal-mini-tag">-25%</span>
+      </a>
+    </div>
+
+    <!-- Row 2: Outdoor -->
+    <div class="deals-row deals-row-2x4">
+      <a href="pages/products.html" class="deals-feature image-feature">
+        <h3>Outdoor</h3>
+        <span class="source-now">Source now →</span>
+      </a>
+      <div class="deal-grid-2x2">
+        <a href="pages/product-detail.html" class="deal-grid-item"><div class="deal-mini-img placeholder small"><img src="assets/images/interior/1.jpg" alt="Soft chairs" /></div><div><p>Soft chairs</p><span>From USD 19</span></div></a>
+        <a href="pages/product-detail.html" class="deal-grid-item"><div class="deal-mini-img placeholder small"><img src="assets/images/interior/2.jpg" alt="Sofa & chair" /></div><div><p>Sofa &amp; chair</p><span>From USD 19</span></div></a>
+        <a href="pages/product-detail.html" class="deal-grid-item"><div class="deal-mini-img placeholder small"><img src="assets/images/interior/3.jpg" alt="Kitchen dishes" /></div><div><p>Kitchen dishes</p><span>From USD 19</span></div></a>
+        <a href="pages/product-detail.html" class="deal-grid-item"><div class="deal-mini-img placeholder small"><img src="assets/images/tech/8.jpg" alt="Smart watches" /></div><div><p>Smart watches</p><span>From USD 19</span></div></a>
+        <a href="pages/product-detail.html" class="deal-grid-item"><div class="deal-mini-img placeholder small"><img src="assets/images/interior/9.jpg" alt="Kitchen mixer" /></div><div><p>Kitchen mixer</p><span>From USD 100</span></div></a>
+        <a href="pages/product-detail.html" class="deal-grid-item"><div class="deal-mini-img placeholder small"><img src="assets/images/interior/8.jpg" alt="Blenders" /></div><div><p>Blenders</p><span>From USD 39</span></div></a>
+        <a href="pages/product-detail.html" class="deal-grid-item"><div class="deal-mini-img placeholder small"><img src="assets/images/interior/10.jpg" alt="Home appliance" /></div><div><p>Home appliance</p><span>From USD 19</span></div></a>
+        <a href="pages/product-detail.html" class="deal-grid-item"><div class="deal-mini-img placeholder small"><img src="assets/images/interior/8.jpg" alt="Coffee maker" /></div><div><p>Coffee maker</p><span>From USD 10</span></div></a>
+      </div>
+    </div>
+
+    <!-- Row 3: Consumer electronics -->
+    <div class="deals-row deals-row-2x4">
+      <a href="pages/products.html" class="deals-feature image-feature pink">
+        <h3>Consumer electronics<br/>and gadgets</h3>
+        <span class="source-now">Source now →</span>
+      </a>
+      <div class="deal-grid-2x2">
+        <a href="pages/product-detail.html" class="deal-grid-item"><div class="deal-mini-img placeholder small"><img src="assets/images/tech/8.jpg" alt="Smart watches" /></div><div><p>Smart watches</p><span>From USD 19</span></div></a>
+        <a href="pages/product-detail.html" class="deal-grid-item"><div class="deal-mini-img placeholder small"><img src="assets/images/tech/6.jpg" alt="Cameras" /></div><div><p>Cameras</p><span>From USD 89</span></div></a>
+        <a href="pages/product-detail.html" class="deal-grid-item"><div class="deal-mini-img placeholder small"><img src="assets/images/tech/9.jpg" alt="Headphones" /></div><div><p>Headphones</p><span>From USD 10</span></div></a>
+        <a href="pages/product-detail.html" class="deal-grid-item"><div class="deal-mini-img placeholder small"><img src="assets/images/interior/10.jpg" alt="Smart watches" /></div><div><p>Smart watches</p><span>From USD 90</span></div></a>
+        <a href="pages/product-detail.html" class="deal-grid-item"><div class="deal-mini-img placeholder small"><img src="assets/images/tech/5.jpg" alt="Gaming set" /></div><div><p>Gaming set</p><span>From USD 35</span></div></a>
+        <a href="pages/product-detail.html" class="deal-grid-item"><div class="deal-mini-img placeholder small"><img src="assets/images/tech/7.jpg" alt="Laptops & PC" /></div><div><p>Laptops &amp; PC</p><span>From USD 340</span></div></a>
+        <a href="pages/product-detail.html" class="deal-grid-item"><div class="deal-mini-img placeholder small"><img src="assets/images/tech/3.jpg" alt="Smartphones" /></div><div><p>Smartphones</p><span>From USD 19</span></div></a>
+        <a href="pages/product-detail.html" class="deal-grid-item"><div class="deal-mini-img placeholder small"><img src="assets/images/tech/10.jpg" alt="Electric kettle" /></div><div><p>Electric kettle</p><span>From USD 240</span></div></a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========== SUPPLIER QUOTE CTA ========== -->
+<section class="quote-cta-section">
+  <div class="container">
+    <div class="quote-cta">
+      <div class="quote-cta-text">
+        <h2>An easy way to send<br/>requests to all suppliers</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+      </div>
+      <form class="quote-form" onsubmit="event.preventDefault(); showToast('Inquiry sent! 🎉','✅')">
+        <h4>Send quote to suppliers</h4>
+        <input type="text" placeholder="What item you need" />
+        <textarea placeholder="Type more details" rows="2"></textarea>
+        <div class="quote-form-row">
+          <input type="text" placeholder="Quantity" />
+          <select><option>Pcs</option><option>Units</option><option>Boxes</option></select>
+        </div>
+        <button type="submit" class="btn btn-primary">Send inquiry</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ========== RECOMMENDED ITEMS ========== -->
+<section class="products-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-title"><h2>Recommended items</h2></div>
+      <a href="pages/products.html" class="view-all">See All Products →</a>
+    </div>
+    <div class="products-grid">
+
+      <!-- Product Card 1 -->
+      <div class="product-card">
+        <span class="product-badge badge-sale">-25%</span>
+        <div class="product-actions">
+          <button class="product-action-btn" onclick="toggleWishlist(this, 'Samsung Galaxy S24')">🤍</button>
+          <button class="product-action-btn" onclick="window.location.href='pages/product-detail.html'">👁</button>
+        </div>
+        <div class="product-image-placeholder"><img src="assets/images/tech/3.jpg" alt="Samsung Galaxy S24 Ultra" /></div>
+        <div class="product-info">
+          <div class="product-category">Smartphones</div>
+          <div class="product-name">Samsung Galaxy S24 Ultra 5G 256GB</div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span class="rating-count">(124)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$999.00</span>
+            <span class="price-old">$1,299.00</span>
+            <span class="price-discount">-25%</span>
+          </div>
+          <button class="add-to-cart-btn" onclick="addToCart('Samsung Galaxy S24')">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 2 -->
+      <div class="product-card">
+        <span class="product-badge badge-new">NEW</span>
+        <div class="product-actions">
+          <button class="product-action-btn" onclick="toggleWishlist(this, 'MacBook Air M3')">🤍</button>
+          <button class="product-action-btn" onclick="window.location.href='pages/product-detail.html'">👁</button>
+        </div>
+        <div class="product-image-placeholder"><img src="assets/images/tech/7.jpg" alt="MacBook Air M3" /></div>
+        <div class="product-info">
+          <div class="product-category">Laptops</div>
+          <div class="product-name">Apple MacBook Air 13" M3 Chip 8GB RAM</div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span class="rating-count">(89)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$1,099.00</span>
+            <span class="price-old">$1,299.00</span>
+          </div>
+          <button class="add-to-cart-btn" onclick="addToCart('MacBook Air M3')">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 3 -->
+      <div class="product-card">
+        <span class="product-badge badge-hot">HOT</span>
+        <div class="product-actions">
+          <button class="product-action-btn" onclick="toggleWishlist(this, 'Sony WH-1000XM5')">🤍</button>
+          <button class="product-action-btn" onclick="window.location.href='pages/product-detail.html'">👁</button>
+        </div>
+        <div class="product-image-placeholder"><img src="assets/images/tech/9.jpg" alt="Sony WH-1000XM5" /></div>
+        <div class="product-info">
+          <div class="product-category">Audio</div>
+          <div class="product-name">Sony WH-1000XM5 Wireless Noise Cancelling</div>
+          <div class="product-rating">
+            <span class="stars">★★★★☆</span>
+            <span class="rating-count">(342)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$279.00</span>
+            <span class="price-old">$349.00</span>
+            <span class="price-discount">-20%</span>
+          </div>
+          <button class="add-to-cart-btn" onclick="addToCart('Sony WH-1000XM5')">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 4 -->
+      <div class="product-card">
+        <div class="product-actions">
+          <button class="product-action-btn" onclick="toggleWishlist(this, 'Apple Watch Series 9')">🤍</button>
+          <button class="product-action-btn" onclick="window.location.href='pages/product-detail.html'">👁</button>
+        </div>
+        <div class="product-image-placeholder"><img src="assets/images/tech/8.jpg" alt="Apple Watch Series 9" /></div>
+        <div class="product-info">
+          <div class="product-category">Wearables</div>
+          <div class="product-name">Apple Watch Series 9 GPS 45mm Aluminium</div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span class="rating-count">(210)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$399.00</span>
+            <span class="price-old">$429.00</span>
+          </div>
+          <button class="add-to-cart-btn" onclick="addToCart('Apple Watch Series 9')">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 5 -->
+      <div class="product-card">
+        <span class="product-badge badge-sale">-30%</span>
+        <div class="product-actions">
+          <button class="product-action-btn" onclick="toggleWishlist(this, 'Canon EOS R50')">🤍</button>
+          <button class="product-action-btn" onclick="window.location.href='pages/product-detail.html'">👁</button>
+        </div>
+        <div class="product-image-placeholder"><img src="assets/images/tech/6.jpg" alt="Canon EOS R50" /></div>
+        <div class="product-info">
+          <div class="product-category">Cameras</div>
+          <div class="product-name">Canon EOS R50 Mirrorless Camera with Kit Lens</div>
+          <div class="product-rating">
+            <span class="stars">★★★★☆</span>
+            <span class="rating-count">(57)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$699.00</span>
+            <span class="price-old">$999.00</span>
+            <span class="price-discount">-30%</span>
+          </div>
+          <button class="add-to-cart-btn" onclick="addToCart('Canon EOS R50')">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 6 -->
+      <div class="product-card">
+        <span class="product-badge badge-new">NEW</span>
+        <div class="product-actions">
+          <button class="product-action-btn" onclick="toggleWishlist(this, 'PS5 Controller')">🤍</button>
+          <button class="product-action-btn" onclick="window.location.href='pages/product-detail.html'">👁</button>
+        </div>
+        <div class="product-image-placeholder"><img src="assets/images/tech/5.jpg" alt="PS5 DualSense Edge Controller" /></div>
+        <div class="product-info">
+          <div class="product-category">Gaming</div>
+          <div class="product-name">PlayStation 5 DualSense Edge Controller</div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span class="rating-count">(183)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$199.00</span>
+            <span class="price-old">$219.00</span>
+          </div>
+          <button class="add-to-cart-btn" onclick="addToCart('PS5 Controller')">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 7 -->
+      <div class="product-card">
+        <div class="product-actions">
+          <button class="product-action-btn" onclick="toggleWishlist(this, 'iPad Pro 12.9')">🤍</button>
+          <button class="product-action-btn" onclick="window.location.href='pages/product-detail.html'">👁</button>
+        </div>
+        <div class="product-image-placeholder"><img src="assets/images/tech/2.jpg" alt="iPad Pro 12.9" /></div>
+        <div class="product-info">
+          <div class="product-category">Tablets</div>
+          <div class="product-name">Apple iPad Pro 12.9" M2 Chip Wi-Fi 256GB</div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span class="rating-count">(98)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$1,099.00</span>
+            <span class="price-old">$1,199.00</span>
+          </div>
+          <button class="add-to-cart-btn" onclick="addToCart('iPad Pro 12.9')">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 8 -->
+      <div class="product-card">
+        <span class="product-badge badge-sale">-15%</span>
+        <div class="product-actions">
+          <button class="product-action-btn" onclick="toggleWishlist(this, 'Logitech MX Master 3S')">🤍</button>
+          <button class="product-action-btn" onclick="window.location.href='pages/product-detail.html'">👁</button>
+        </div>
+        <div class="product-image-placeholder">🖱️</div>
+        <div class="product-info">
+          <div class="product-category">Accessories</div>
+          <div class="product-name">Logitech MX Master 3S Wireless Mouse</div>
+          <div class="product-rating">
+            <span class="stars">★★★★☆</span>
+            <span class="rating-count">(267)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-current">$84.00</span>
+            <span class="price-old">$99.00</span>
+            <span class="price-discount">-15%</span>
+          </div>
+          <button class="add-to-cart-btn" onclick="addToCart('Logitech MX Master 3S')">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ========== SUPPLIERS BY REGION ========== -->
+<section class="suppliers-region">
+  <div class="container">
+    <h3>Suppliers by region</h3>
+    <div class="region-grid">
+      <div class="region-item"><span class="flag">🇦🇪</span><div><p>Arabic Emirates</p><span>shopname.ae</span></div></div>
+      <div class="region-item"><span class="flag">🇦🇺</span><div><p>Australia</p><span>shopname.ae</span></div></div>
+      <div class="region-item"><span class="flag">🇺🇸</span><div><p>United States</p><span>shopname.ae</span></div></div>
+      <div class="region-item"><span class="flag">🇷🇺</span><div><p>Russia</p><span>shopname.ru</span></div></div>
+      <div class="region-item"><span class="flag">🇮🇹</span><div><p>Italy</p><span>shopname.it</span></div></div>
+      <div class="region-item"><span class="flag">🇩🇰</span><div><p>Denmark</p><span>denmark.com.dk</span></div></div>
+      <div class="region-item"><span class="flag">🇫🇷</span><div><p>France</p><span>shopname.com.fr</span></div></div>
+      <div class="region-item"><span class="flag">🇦🇪</span><div><p>Arabic Emirates</p><span>shopname.ae</span></div></div>
+      <div class="region-item"><span class="flag">🇨🇳</span><div><p>China</p><span>shopname.ae</span></div></div>
+      <div class="region-item"><span class="flag">🇬🇧</span><div><p>Great Britain</p><span>shopname.co.uk</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== NEWSLETTER ========== -->
+<section class="newsletter">
+  <div class="container">
+    <div class="newsletter-inner centered">
+      <h2>Subscribe on our newsletter</h2>
+      <p>Get daily news on upcoming offers from many suppliers all over the world</p>
+      <div class="newsletter-form">
+        <input type="email" class="newsletter-input" placeholder="Email" />
+        <button class="btn btn-primary" onclick="showToast('Thanks for subscribing! 🎉', '✅')">Subscribe</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid footer-grid-6">
+      <!-- About -->
+      <div>
+        <img src="assets/brand/logo-colored.svg" alt="Brand logo" class="footer-logo-img" />
+        <p class="footer-about">Best information about the company goes here but now lorem ipsum is</p>
+        <div class="footer-socials">
+          <div class="social-btn">📘</div>
+          <div class="social-btn">🐦</div>
+          <div class="social-btn">📸</div>
+          <div class="social-btn">▶️</div>
+        </div>
+      </div>
+      <!-- About -->
+      <div class="footer-col">
+        <h4>About</h4>
+        <div class="footer-links">
+          <a href="#">About Us</a>
+          <a href="#">Find store</a>
+          <a href="#">Categories</a>
+          <a href="#">Blogs</a>
+        </div>
+      </div>
+      <!-- Partnership -->
+      <div class="footer-col">
+        <h4>Partnership</h4>
+        <div class="footer-links">
+          <a href="#">About Us</a>
+          <a href="#">Find store</a>
+          <a href="#">Categories</a>
+          <a href="#">Blogs</a>
+        </div>
+      </div>
+      <!-- Information -->
+      <div class="footer-col">
+        <h4>Information</h4>
+        <div class="footer-links">
+          <a href="#">Help Center</a>
+          <a href="#">Money Refund</a>
+          <a href="#">Shipping</a>
+          <a href="#">Contact us</a>
+        </div>
+      </div>
+      <!-- For users -->
+      <div class="footer-col">
+        <h4>For users</h4>
+        <div class="footer-links">
+          <a href="#">Login</a>
+          <a href="#">Register</a>
+          <a href="#">Settings</a>
+          <a href="#">My Orders</a>
+        </div>
+      </div>
+      <!-- Get app -->
+      <div class="footer-col">
+        <h4>Get app</h4>
+        <div class="footer-app-badges">
+          <div class="app-badge">📱 App Store</div>
+          <div class="app-badge">▶️ Google Play</div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <span>© 2026 Ecommerce.</span>
+      <span class="footer-lang">🇬🇧 English ▾</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Toast -->
+<div class="toast" id="toast"><span class="toast-icon">✅</span> Done!</div>
+
+<script src="js/scrpt.js"></script>
+</body>
+</html>

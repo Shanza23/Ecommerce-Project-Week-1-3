@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samsung Galaxy S24 Ultra – Clicon</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="../index.html" class="logo">
+        <img src="../assets/brand/logo-colored.svg" alt="Brand logo" class="logo-img" />
+      </a>
+      <div class="search-bar">
+        <select class="search-category">
+          <option>All category</option>
+          <option>Electronics</option>
+          <option>Clothing</option>
+        </select>
+        <input class="search-input" type="text" placeholder="Search for products, brands and more..." />
+        <button class="search-btn">Search</button>
+      </div>
+      <div class="header-actions">
+        <a href="#" class="action-item">
+          <div class="action-icon">👤</div>
+          <span>Profile</span>
+        </a>
+        <a href="#" class="action-item">
+          <div class="action-icon">💬</div>
+          <span>Message</span>
+        </a>
+        <a href="#" class="action-item">
+          <div class="action-icon">📦</div>
+          <span>Orders</span>
+        </a>
+        <a href="#" class="action-item">
+          <div class="action-icon">🛒<span class="action-badge cart-badge">0</span></div>
+          <span>My cart</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- NAV -->
+<nav class="nav-bar">
+  <div class="container">
+    <div class="nav-inner">
+      <button class="all-categories-btn">☰ &nbsp;All category</button>
+      <ul class="nav-menu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">Hot offers</a></li>
+        <li><a href="#">Gift boxes</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="products.html">Menu item</a></li>
+        <li><a href="#">Help ▾</a></li>
+      </ul>
+      <div class="nav-hotline">
+        <span>English, USD ▾</span>
+        <span style="margin-left:16px;">🇩🇪 Ship to ▾</span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <div class="container">
+    <ul class="breadcrumb-list">
+      <li><a href="../index.html">Home</a></li>
+      <li><span class="breadcrumb-sep">›</span></li>
+      <li><a href="products.html">Shop</a></li>
+      <li><span class="breadcrumb-sep">›</span></li>
+      <li><a href="#">Smartphones</a></li>
+      <li><span class="breadcrumb-sep">›</span></li>
+      <li><span class="breadcrumb-current">Samsung Galaxy S24 Ultra</span></li>
+    </ul>
+  </div>
+</div>
+
+<!-- PRODUCT DETAIL -->
+<section class="product-detail">
+  <div class="container">
+    <div class="detail-grid">
+
+      <!-- Gallery -->
+      <div class="product-gallery">
+        <div class="main-image-placeholder" id="main-display">
+          <img src="../assets/images/tech/3.jpg" alt="Samsung Galaxy S24 Ultra" id="main-display-img" />
+        </div>
+        <div class="thumb-list">
+          <div class="thumb active" onclick="selectThumb(this, '../assets/images/tech/3.jpg')"><img src="../assets/images/tech/3.jpg" alt="View 1" /></div>
+          <div class="thumb" onclick="selectThumb(this, '../assets/images/tech/1.jpg')"><img src="../assets/images/tech/1.jpg" alt="View 2" /></div>
+          <div class="thumb" onclick="selectThumb(this, '../assets/images/tech/4.jpg')"><img src="../assets/images/tech/4.jpg" alt="View 3" /></div>
+          <div class="thumb" onclick="selectThumb(this, '../assets/images/tech/2.jpg')"><img src="../assets/images/tech/2.jpg" alt="View 4" /></div>
+        </div>
+      </div>
+
+      <!-- Info -->
+      <div class="product-details">
+        <div class="detail-category">📱 Smartphones › Samsung</div>
+        <h1 class="detail-title">Samsung Galaxy S24 Ultra 5G — 256GB Titanium Black</h1>
+
+        <div class="detail-rating">
+          <span class="stars" style="font-size:16px;">★★★★★</span>
+          <span class="rating-count">(124 reviews)</span>
+          <span style="color:#ADB7BC; margin:0 6px;">|</span>
+          <span class="in-stock">✔ In Stock</span>
+        </div>
+
+        <div class="detail-price">
+          <span class="price-current">$999.00</span>
+          <span class="price-old">$1,299.00</span>
+          <span class="price-discount">Save $300</span>
+        </div>
+
+        <p class="detail-desc">
+          The Samsung Galaxy S24 Ultra brings the ultimate smartphone experience with a 200MP camera, built-in S Pen, and Snapdragon 8 Gen 3 processor. Its titanium frame and 6.8" Dynamic AMOLED display make it both durable and stunning.
+        </p>
+
+        <!-- Storage Options -->
+        <div class="product-options">
+          <div class="option-label">Storage:</div>
+          <div class="size-options">
+            <button class="size-btn active">256GB</button>
+            <button class="size-btn">512GB</button>
+            <button class="size-btn">1TB</button>
+          </div>
+        </div>
+
+        <!-- Color Options -->
+        <div class="product-options">
+          <div class="option-label">Color: <span style="font-weight:400; color:#5F6C72">Titanium Black</span></div>
+          <div class="color-options">
+            <div class="color-btn active" style="background:#1a1a1a;" title="Titanium Black"></div>
+            <div class="color-btn" style="background:#b0b4b8;" title="Titanium Gray"></div>
+            <div class="color-btn" style="background:#d4c5a0;" title="Titanium Yellow"></div>
+            <div class="color-btn" style="background:#8b6f9e;" title="Titanium Violet"></div>
+          </div>
+        </div>
+
+        <!-- Add to Cart Row -->
+        <div class="add-to-cart-row">
+          <div class="qty-selector">
+            <button class="qty-btn" data-action="minus">−</button>
+            <input class="qty-input" type="number" value="1" min="1" max="99" />
+            <button class="qty-btn" data-action="plus">+</button>
+          </div>
+          <button class="btn btn-primary add-cart-big" onclick="addToCart('Samsung Galaxy S24 Ultra')">
+            🛒 Add to Cart
+          </button>
+          <button class="wishlist-btn" onclick="toggleWishlist(this, 'Samsung Galaxy S24 Ultra')">🤍</button>
+        </div>
+
+        <!-- Buy Now -->
+        <button class="btn btn-outline" style="width:100%; justify-content:center; margin-bottom:20px;" onclick="showToast('Redirecting to checkout...', '💳')">
+          ⚡ Buy Now
+        </button>
+
+        <!-- Meta Info -->
+        <div class="product-meta">
+          <div class="meta-row">
+            <span class="meta-label">SKU:</span>
+            <span class="meta-value">SGS24U-256-BLK</span>
+          </div>
+          <div class="meta-row">
+            <span class="meta-label">Brand:</span>
+            <span class="meta-value"><a href="#">Samsung</a></span>
+          </div>
+          <div class="meta-row">
+            <span class="meta-label">Category:</span>
+            <span class="meta-value"><a href="products.html">Smartphones</a></span>
+          </div>
+          <div class="meta-row">
+            <span class="meta-label">Warranty:</span>
+            <span class="meta-value">1 Year Manufacturer Warranty</span>
+          </div>
+          <div class="meta-row">
+            <span class="meta-label">Tags:</span>
+            <span class="meta-value">
+              <span class="tag-chip">Samsung</span>
+              <span class="tag-chip">5G</span>
+              <span class="tag-chip">Android</span>
+              <span class="tag-chip">S Pen</span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Shipping Info -->
+        <div style="margin-top:20px; padding:16px; background:#F2F4F5; border-radius:8px; display:flex; flex-direction:column; gap:10px;">
+          <div style="display:flex; align-items:center; gap:10px; font-size:13px;">
+            <span style="font-size:20px;">🚚</span>
+            <div><strong>Free Delivery</strong> on orders over $50 — Est. 2–4 business days</div>
+          </div>
+          <div style="display:flex; align-items:center; gap:10px; font-size:13px;">
+            <span style="font-size:20px;">🔄</span>
+            <div><strong>30-Day Returns</strong> — Easy, hassle-free returns</div>
+          </div>
+          <div style="display:flex; align-items:center; gap:10px; font-size:13px;">
+            <span style="font-size:20px;">🔒</span>
+            <div><strong>Secure Payment</strong> — SSL encrypted checkout</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TABS: Description, Specs, Reviews -->
+<div class="container">
+  <section class="tabs-section">
+    <div class="tabs-header">
+      <button class="tab-btn active" data-tab="tab-desc">Description</button>
+      <button class="tab-btn" data-tab="tab-specs">Specifications</button>
+      <button class="tab-btn" data-tab="tab-reviews">Reviews (124)</button>
+    </div>
+
+    <!-- Description Tab -->
+    <div class="tab-content active" id="tab-desc">
+      <p style="color:#5F6C72; font-size:14px; line-height:1.9; max-width:800px;">
+        The <strong>Samsung Galaxy S24 Ultra</strong> is Samsung's most advanced smartphone to date, combining cutting-edge camera technology, a powerful chipset, and the versatility of the built-in S Pen into one premium device.
+      </p>
+      <br />
+      <p style="color:#5F6C72; font-size:14px; line-height:1.9; max-width:800px;">
+        Featuring a massive 200MP main camera, the S24 Ultra lets you capture stunning photos and videos in any lighting condition. The Snapdragon 8 Gen 3 chip ensures buttery-smooth performance for gaming, multitasking, and productivity. The 5000mAh battery with 45W fast charging keeps you going all day.
+      </p>
+      <br />
+      <ul style="padding-left:20px; color:#5F6C72; font-size:14px; line-height:2;">
+        <li>✔ 200MP + 12MP + 10MP + 10MP quad camera system</li>
+        <li>✔ 6.8" QHD+ Dynamic AMOLED 2X, 120Hz</li>
+        <li>✔ Snapdragon 8 Gen 3 — 12GB RAM</li>
+        <li>✔ 5000mAh battery, 45W wired + 15W wireless</li>
+        <li>✔ Built-in S Pen with improved latency</li>
+        <li>✔ Android 14, One UI 6.1, 7 years of OS updates</li>
+        <li>✔ Titanium frame — IP68 water resistance</li>
+      </ul>
+    </div>
+
+    <!-- Specs Tab -->
+    <div class="tab-content" id="tab-specs">
+      <table style="width:100%; border-collapse:collapse; font-size:14px;">
+        <tr style="background:#F2F4F5;">
+          <td style="padding:12px 16px; font-weight:600; color:#191C1F; width:200px; border-bottom:1px solid #E4E7E9;">Display</td>
+          <td style="padding:12px 16px; color:#5F6C72; border-bottom:1px solid #E4E7E9;">6.8" QHD+ Dynamic AMOLED 2X, 120Hz, 2600 nits peak</td>
+        </tr>
+        <tr>
+          <td style="padding:12px 16px; font-weight:600; color:#191C1F; border-bottom:1px solid #E4E7E9;">Processor</td>
+          <td style="padding:12px 16px; color:#5F6C72; border-bottom:1px solid #E4E7E9;">Snapdragon 8 Gen 3 (4nm)</td>
+        </tr>
+        <tr style="background:#F2F4F5;">
+          <td style="padding:12px 16px; font-weight:600; color:#191C1F; border-bottom:1px solid #E4E7E9;">RAM / Storage</td>
+          <td style="padding:12px 16px; color:#5F6C72; border-bottom:1px solid #E4E7E9;">12GB RAM / 256GB, 512GB, 1TB</td>
+        </tr>
+        <tr>
+          <td style="padding:12px 16px; font-weight:600; color:#191C1F; border-bottom:1px solid #E4E7E9;">Rear Camera</td>
+          <td style="padding:12px 16px; color:#5F6C72; border-bottom:1px solid #E4E7E9;">200MP (main) + 12MP (ultrawide) + 10MP (3x) + 10MP (5x)</td>
+        </tr>
+        <tr style="background:#F2F4F5;">
+          <td style="padding:12px 16px; font-weight:600; color:#191C1F; border-bottom:1px solid #E4E7E9;">Front Camera</td>
+          <td style="padding:12px 16px; color:#5F6C72; border-bottom:1px solid #E4E7E9;">12MP, f/2.2</td>
+        </tr>
+        <tr>
+          <td style="padding:12px 16px; font-weight:600; color:#191C1F; border-bottom:1px solid #E4E7E9;">Battery</td>
+          <td style="padding:12px 16px; color:#5F6C72; border-bottom:1px solid #E4E7E9;">5000mAh, 45W wired, 15W wireless, 4.5W reverse</td>
+        </tr>
+        <tr style="background:#F2F4F5;">
+          <td style="padding:12px 16px; font-weight:600; color:#191C1F; border-bottom:1px solid #E4E7E9;">OS</td>
+          <td style="padding:12px 16px; color:#5F6C72; border-bottom:1px solid #E4E7E9;">Android 14, One UI 6.1 (7 years of updates)</td>
+        </tr>
+        <tr>
+          <td style="padding:12px 16px; font-weight:600; color:#191C1F; border-bottom:1px solid #E4E7E9;">Build</td>
+          <td style="padding:12px 16px; color:#5F6C72; border-bottom:1px solid #E4E7E9;">Titanium frame, Corning Gorilla Armor, IP68</td>
+        </tr>
+        <tr style="background:#F2F4F5;">
+          <td style="padding:12px 16px; font-weight:600; color:#191C1F;">S Pen</td>
+          <td style="padding:12px 16px; color:#5F6C72;">Yes, built-in (2.8ms latency)</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Reviews Tab -->
+    <div class="tab-content" id="tab-reviews">
+      <div style="display:flex; gap:40px; margin-bottom:32px; align-items:flex-start;">
+        <div style="text-align:center; flex-shrink:0;">
+          <div style="font-size:60px; font-weight:800; color:#191C1F;">4.8</div>
+          <div style="color:#FA8232; font-size:22px; margin-bottom:4px;">★★★★★</div>
+          <div style="font-size:13px; color:#5F6C72;">Based on 124 reviews</div>
+        </div>
+        <div style="flex:1;">
+          <div style="display:flex; align-items:center; gap:12px; margin-bottom:8px;">
+            <span style="font-size:13px; color:#FA8232; width:30px;">5★</span>
+            <div style="flex:1; background:#E4E7E9; border-radius:4px; height:8px;">
+              <div style="width:80%; background:#FA8232; height:8px; border-radius:4px;"></div>
+            </div>
+            <span style="font-size:13px; color:#5F6C72; width:30px;">80%</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px; margin-bottom:8px;">
+            <span style="font-size:13px; color:#FA8232; width:30px;">4★</span>
+            <div style="flex:1; background:#E4E7E9; border-radius:4px; height:8px;">
+              <div style="width:14%; background:#FA8232; height:8px; border-radius:4px;"></div>
+            </div>
+            <span style="font-size:13px; color:#5F6C72; width:30px;">14%</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px; margin-bottom:8px;">
+            <span style="font-size:13px; color:#FA8232; width:30px;">3★</span>
+            <div style="flex:1; background:#E4E7E9; border-radius:4px; height:8px;">
+              <div style="width:4%; background:#FA8232; height:8px; border-radius:4px;"></div>
+            </div>
+            <span style="font-size:13px; color:#5F6C72; width:30px;">4%</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px; margin-bottom:8px;">
+            <span style="font-size:13px; color:#FA8232; width:30px;">2★</span>
+            <div style="flex:1; background:#E4E7E9; border-radius:4px; height:8px;">
+              <div style="width:1%; background:#FA8232; height:8px; border-radius:4px;"></div>
+            </div>
+            <span style="font-size:13px; color:#5F6C72; width:30px;">1%</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px;">
+            <span style="font-size:13px; color:#FA8232; width:30px;">1★</span>
+            <div style="flex:1; background:#E4E7E9; border-radius:4px; height:8px;">
+              <div style="width:1%; background:#FA8232; height:8px; border-radius:4px;"></div>
+            </div>
+            <span style="font-size:13px; color:#5F6C72; width:30px;">1%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews-list">
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer">
+              <div class="reviewer-avatar">AK</div>
+              <div>
+                <div class="reviewer-name">Ahmed Khan</div>
+                <div class="review-date" style="font-size:12px; color:#ADB7BC;">June 20, 2025 · Verified Purchase</div>
+              </div>
+            </div>
+            <span class="stars">★★★★★</span>
+          </div>
+          <p class="review-text">Absolutely the best phone I've ever owned. The camera quality is unreal — my photos look professional without any editing. The S Pen is a game changer for notes and drawing. Battery lasts all day with heavy use. Worth every rupee!</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer">
+              <div class="reviewer-avatar" style="background:#2d1b69;">SF</div>
+              <div>
+                <div class="reviewer-name">Sara Farooq</div>
+                <div class="review-date" style="font-size:12px; color:#ADB7BC;">June 10, 2025 · Verified Purchase</div>
+              </div>
+            </div>
+            <span class="stars">★★★★★</span>
+          </div>
+          <p class="review-text">Delivery was super fast — got it the next day! The phone came in perfect condition with all accessories. The titanium build feels premium. Screen is gorgeous and incredibly smooth. Highly recommend this seller.</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer">
+              <div class="reviewer-avatar" style="background:#1a6e3a;">UR</div>
+              <div>
+                <div class="reviewer-name">Usman Raza</div>
+                <div class="review-date" style="font-size:12px; color:#ADB7BC;">May 28, 2025 · Verified Purchase</div>
+              </div>
+            </div>
+            <span class="stars">★★★★☆</span>
+          </div>
+          <p class="review-text">Great phone overall. Camera and performance are top-notch. Took off one star because the 45W charger is not included in the box. A phone this expensive should come with a fast charger. Otherwise, no complaints at all.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</div>
+
+<!-- RELATED PRODUCTS -->
+<section class="related-section">
+  <div class="container">
+    <div class="section-header" style="margin-bottom:28px;">
+      <div class="section-title"><h2>Related Products</h2></div>
+      <a href="products.html" class="view-all">View All →</a>
+    </div>
+    <div class="products-grid">
+
+      <div class="product-card">
+        <span class="product-badge badge-new">NEW</span>
+        <div class="product-actions">
+          <button class="product-action-btn" onclick="toggleWishlist(this, 'iPhone 15 Pro')">🤍</button>
+          <button class="product-action-btn" onclick="window.location.href='product-detail.html'">👁</button>
+        </div>
+        <div class="product-image-placeholder"><img src="../assets/images/tech/1.jpg" alt="iPhone 15 Pro Max" /></div>
+        <div class="product-info">
+          <div class="product-category">Smartphones</div>
+          <div class="product-name">Apple iPhone 15 Pro Max 256GB Natural Titanium</div>
+          <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(312)</span></div>
+          <div class="product-price"><span class="price-current">$1,199.00</span><span class="price-old">$1,399.00</span></div>
+          <button class="add-to-cart-btn" onclick="addToCart('iPhone 15 Pro')">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-actions">
+          <button class="product-action-btn" onclick="toggleWishlist(this, 'Google Pixel 8')">🤍</button>
+          <button class="product-action-btn" onclick="window.location.href='product-detail.html'">👁</button>
+        </div>
+        <div class="product-image-placeholder"><img src="../assets/images/tech/3.jpg" alt="Google Pixel 8 Pro" /></div>
+        <div class="product-info">
+          <div class="product-category">Smartphones</div>
+          <div class="product-name">Google Pixel 8 Pro 256GB Porcelain</div>
+          <div class="product-rating"><span class="stars">★★★★☆</span><span class="rating-count">(87)</span></div>
+          <div class="product-price"><span class="price-current">$799.00</span><span class="price-old">$999.00</span></div>
+          <button class="add-to-cart-btn" onclick="addToCart('Google Pixel 8')">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <span class="product-badge badge-sale">-20%</span>
+        <div class="product-actions">
+          <button class="product-action-btn" onclick="toggleWishlist(this, 'Samsung Galaxy S23')">🤍</button>
+          <button class="product-action-btn" onclick="window.location.href='product-detail.html'">👁</button>
+        </div>
+        <div class="product-image-placeholder"><img src="../assets/images/tech/4.jpg" alt="Samsung Galaxy S23 FE" /></div>
+        <div class="product-info">
+          <div class="product-category">Smartphones</div>
+          <div class="product-name">Samsung Galaxy S23 FE 128GB Graphite</div>
+          <div class="product-rating"><span class="stars">★★★★☆</span><span class="rating-count">(143)</span></div>
+          <div class="product-price"><span class="price-current">$499.00</span><span class="price-old">$629.00</span></div>
+          <button class="add-to-cart-btn" onclick="addToCart('Samsung Galaxy S23')">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-actions">
+          <button class="product-action-btn" onclick="toggleWishlist(this, 'OnePlus 12')">🤍</button>
+          <button class="product-action-btn" onclick="window.location.href='product-detail.html'">👁</button>
+        </div>
+        <div class="product-image-placeholder"><img src="../assets/images/tech/2.jpg" alt="OnePlus 12" /></div>
+        <div class="product-info">
+          <div class="product-category">Smartphones</div>
+          <div class="product-name">OnePlus 12 5G 256GB Silky Black</div>
+          <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(56)</span></div>
+          <div class="product-price"><span class="price-current">$749.00</span><span class="price-old">$899.00</span></div>
+          <button class="add-to-cart-btn" onclick="addToCart('OnePlus 12')">🛒 Add to Cart</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter">
+  <div class="container">
+    <div class="newsletter-inner centered">
+      <h2>Subscribe on our newsletter</h2>
+      <p>Get daily news on upcoming offers from many suppliers all over the world</p>
+      <div class="newsletter-form">
+        <input type="email" class="newsletter-input" placeholder="Email" />
+        <button class="btn btn-primary" onclick="showToast('Thanks for subscribing! 🎉', '✅')">Subscribe</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid footer-grid-6">
+      <div>
+        <img src="../assets/brand/logo-colored.svg" alt="Brand logo" class="footer-logo-img" />
+        <p class="footer-about">Best information about the company goes here but now lorem ipsum is</p>
+        <div class="footer-socials">
+          <div class="social-btn">📘</div>
+          <div class="social-btn">🐦</div>
+          <div class="social-btn">📸</div>
+          <div class="social-btn">▶️</div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <div class="footer-links">
+          <a href="#">About Us</a>
+          <a href="#">Find store</a>
+          <a href="#">Categories</a>
+          <a href="#">Blogs</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Partnership</h4>
+        <div class="footer-links">
+          <a href="#">About Us</a>
+          <a href="#">Find store</a>
+          <a href="#">Categories</a>
+          <a href="#">Blogs</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Information</h4>
+        <div class="footer-links">
+          <a href="#">Help Center</a>
+          <a href="#">Money Refund</a>
+          <a href="#">Shipping</a>
+          <a href="#">Contact us</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>For users</h4>
+        <div class="footer-links">
+          <a href="#">Login</a>
+          <a href="#">Register</a>
+          <a href="#">Settings</a>
+          <a href="#">My Orders</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Get app</h4>
+        <div class="footer-app-badges">
+          <div class="app-badge">📱 App Store</div>
+          <div class="app-badge">▶️ Google Play</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Ecommerce.</span>
+      <span class="footer-lang">🇬🇧 English ▾</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+<script src="../js/scrpt.js"></script>
+<script>
+  function selectThumb(el, imgSrc) {
+    document.querySelectorAll('.thumb').forEach(t => t.classList.remove('active'));
+    el.classList.add('active');
+    document.getElementById('main-display-img').src = imgSrc;
+  }
+</script>
+</body>
+</html>
